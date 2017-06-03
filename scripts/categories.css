@@ -1,0 +1,38 @@
+.about {
+font-family: 'Baloo Bhaina', cursive;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.h1 {
+  color: #333333;
+}
+
+.left-half {
+flex: 1;
+  padding: 1rem;
+
+}
+
+
+@media screen and (max-width: 800px) {
+.left-half h3 {
+    font-size: 100%;
+    line-height: 25px;
+  }
+}
+.right-half {
+  flex: 1;
+  padding: 1rem;
+  text-align: center;
+  border-left: 1px solid #cccccc;
+
+}
+
+.right-half img {
+  max-width: 100%;
+    height: auto;

@@ -1,0 +1,59 @@
+.hero {
+  text-align: center;
+  background-size: cover;
+  min-height: 800px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.hero h1 {
+  line-height: 55px;
+  font-size: 72px;
+  font-weight: 100;
+  color: #333333 ;
+  font-family:'Baloo Bhaina', cursive;
+}
+
+
+.hero h2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+#intro .container-fluid .h3 {
+  color: white;
+}
+
+#intro {
+  background: url("");
+  background-repeat: no-repeat;
+
+}
+
+
+#button {
+  display: block;
+width: 20%;
+margin: auto;
+border: 10px solid #333333;
+border-radius: 8px;
+padding: 14px 40px;
+background-color: white;
+font-family: 'Baloo Bhaina', cursive;
+color: #333333;
+}
+
+.row {
+  padding-bottom: 55px;
+  border-bottom: 10px solid #333333;
+}
+
+.row .fa {
+  font-size: 250px;
+}
